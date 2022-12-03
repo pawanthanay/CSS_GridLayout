@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  background-color: #101010;
+  color: #ffffff;
+}
+
+.main-content {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+}
+
+.sidebar {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+}
+
+.main-content, .sidebar {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 56.25em) {
+  .grid-parent {
+    grid-template-columns: 1fr 400px;
+  }
+}/*# sourceMappingURL=style.css.map */
